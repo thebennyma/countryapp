@@ -1,0 +1,37 @@
+.header {
+  background: var(--clr-surface);
+  box-shadow: var(--shadow);
+}
+
+.inner {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 18px 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.toggle {
+  border: 0;
+  background: transparent;
+  color: var(--clr-text);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  font-size: 16px;
+}

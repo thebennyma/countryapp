@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+
+:root {
+  --ff-sans: 'Nunito Sans', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+
+  --clr-text: hsl(200, 15%, 8%);
+  --clr-input: hsl(0, 0%, 50%);
+  --clr-bg: hsl(0, 0%, 99%);
+  --clr-surface: hsl(0, 100%, 100%);
+
+  --shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  --radius: 8px;
+
+  --container: 1200px;
+  --gap: 24px;
+
+  --fs-home: 14px;
+  --fs-detail: 16px;
+}
+
+[data-theme='dark'] {
+  --clr-text: hsl(0, 100%, 100%);
+  --clr-input: hsl(0, 0%, 70%);
+  --clr-bg: hsl(207, 26%, 17%);
+  --clr-surface: hsl(209, 23%, 22%);
+  --shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--ff-sans);
+  background: var(--clr-bg);
+  color: var(--clr-text);
+  font-size: var(--fs-home);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
